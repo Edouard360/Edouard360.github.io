@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "A sample post on scVI"
+description: "Describing work on scVI"
+excerpt: "scVI"
+date:   2018-10-20
+mathjax: true
+comments: true
+tags: pytorch
+github: https://github.com/YosefLab/scVI
+---
+
+Code is available on [github](https://github.com/YosefLab/scVI).
+
+## Introduction
+
+Introduction about the scVI project.
+
+## Conclusion
+
+Conclusion about the scVI project.

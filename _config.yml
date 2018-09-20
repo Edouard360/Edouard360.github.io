@@ -1,0 +1,67 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Edouard360 blog
+email: ""
+description: "My machine learning blob"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://Edouard360.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  Edouard360
+google_analytics: UA-97038685-1
+
+
+# Build settings
+permalink: none
+markdown: kramdown
+theme: minima
+gems:
+  - jekyll-feed
+  - jekyll-seo-tag
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+
+curriculum:
+  - image: img/feedly.png
+    title: Feedly
+    info: 2018
+    description: NLP Engineer
+    url: http://feedly.com
+  - image: img/berkeley.png
+    title: Research Assistant
+    info: 2018
+    description: Research work in the Computational Biology Departement. 
+    url: https://eecs.berkeley.edu/
+  - image: img/mva.png
+    title: ENS Cachan
+    info: 2017 - 2018
+    description: Master MVA - Data Science Track
+    url: http://math.ens-paris-saclay.fr/version-francaise/formations/master-mva/
+  - image: img/x.jpg
+    title: École polytechnique
+    info: 2014 - 2017
+    url: https://www.polytechnique.edu
+    description: Master in Applied Mathematics - Diplôme d'Ingénieur
+  - image: img/terre.png
+    title: Armée de Terre
+    info: 2014
+    description: Aspirant - Pamiers
+    url: https://www.recrutement.terre.defense.gouv.fr/regiments/1er-regiment-de-chasseurs-parachutistes
+  - image: img/ginette.jpg
+    title: Lycée Sainte Geneviève
+    info: 2012 - 2014
+    description: Classes préparatoires - Maths Physics
+    url: http://bginette.com
